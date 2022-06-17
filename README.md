@@ -1,4 +1,4 @@
-## QB Server Wipe 
+## QB Wipe Server
 This script wipe your hole QB Server 👊😎👍 
 
 Every player and every table that is used will be emty after running this.
