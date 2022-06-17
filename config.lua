@@ -5,7 +5,7 @@ Config.WipeAllPlayers = true  -- true will do a complte server wipe, with false,
 
 
 -- These are the only tables that remain untouched if you have the `Config.WipeAllPlayers` set to false.
-Config.WipePlayers = { -- dont edit WipePlayers, if you do, you will not remove the complete player from your datbase.
+Config.WipePlayers = { -- dont edit WipePlayers, if you do, you will not remove the players from your datbase.
     { table = 'apartments' },
     { table = 'players' },
     { table = 'playerskins' },
