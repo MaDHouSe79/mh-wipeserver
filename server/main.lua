@@ -38,8 +38,8 @@ local wipeServer(source)
         runWipe()
         Wait(Config.ShowTimeNotify)
         TriggerClientEvent('QBCore:Notify', -1, Lang:t('info.succes_wiped'), "success", Config.ShowTimeNotify)
-        Wait(Config.ShowTimeNotify + 500)
         if Config.WipeAllPlayers then
+            Wait(Config.ShowTimeNotify + 500)
             TriggerClientEvent('qb-wipeserver:client:createNewChar', -1)
         end
     else
