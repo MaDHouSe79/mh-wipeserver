@@ -27,7 +27,7 @@ local function runWipe()
     end
 end
 
-local wipeServer(source)
+local function wipeServer(source)
     if isAdmin(source) then
         if Config.WipeAllPlayers then
             TriggerClientEvent('QBCore:Notify', -1, Lang:t('info.wipe_started', {type = 'Total Wipe'}), "success", Config.WipeAfterSecs)
